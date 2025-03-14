@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: event_source
+    description: "Source tables for students, departments, and marks"
+    database: EVENT_DB
+    schema: STAGING
+
+    tables:
+      - name: CUSTOMER_TABLE
+        columns:
+          - name: customer_id
+           
+
+      - name: PRODUCTS_TABLE
+      - name: COUNTRY_REGION_TABLE
+      - name: TRANSACTIONS_TABLE
